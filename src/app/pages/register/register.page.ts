@@ -12,6 +12,6 @@ export class RegisterPage implements OnInit {
   ngOnInit() {}
 
   register() {
-    this.router.navigate(['register']);
+    this.router.navigate(['dashboard']);
   }
 }
